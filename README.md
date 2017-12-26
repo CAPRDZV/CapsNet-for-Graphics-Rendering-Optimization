@@ -8,7 +8,7 @@ The issues obviously are speed and data size. Well newer decoders, like this [Mu
 
 Basically I'm gonna figure out how to encode one graphical feature at a time into a capsule network, then ["style transfer"](https://github.com/moothyknight/UniversalStyleTransfer) those onto the screen in reference to a map + game camera (i.e. the viewing frustum). It'll be quite modular, so various features can be toggled and modified. This will start as a normal engine with a few features being generated from a trained net, like particle physics and lighting, since a lot of that has been done already (just not in CapsNet) and can be referenced. What would be really trippy would be handing over control of the reference map and camera in a deep-dream-like recurrent way. 
 
-I would love help! I shall dub this the InsanityNet if it works. I need help tweaking a capsnet for different datasets basically.
+I would love help! I shall dub this the InsanityNet if it works. I need help tweaking a capsnet for different datasets, I'm covering the graphics engine.
 Reach me at: brewster.joshua1@gmail.com
 
 I'm a computer science and psychology student. I've been studying this for a few years now, it's only in 2017 that some of the tools are becoming available to make something like my idea possible. Now I just need a Titan V to get decent framerate... X_x
