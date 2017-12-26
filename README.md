@@ -11,4 +11,4 @@ Basically I'm attempting to figure out how to encode one graphical feature at a 
 I would love help! I shall dub this the InsanityNet if it works. I need help tweaking a capsnet for different datasets, I'm covering the graphics engine.
 Reach me at: brewster.joshua1@gmail.com
 
-I'm a computer science and psychology student. I've been studying this for a few years now, it's only in 2017 that some of the tools are becoming available to make something like my idea possible. Now I just need a Titan V to get decent framerate... X_x https://i.pinimg.com/736x/f2/fe/7a/f2fe7abeae7cafb5c622b447c4fa294a--high-meme.jpg
+I'm a computer science and psychology student. I've been studying this for a few years now, it's only in 2017 that some of the tools are becoming available to make something like this idea possible. Now I just need a Titan V to get decent framerate... X_x https://i.pinimg.com/736x/f2/fe/7a/f2fe7abeae7cafb5c622b447c4fa294a--high-meme.jpg
