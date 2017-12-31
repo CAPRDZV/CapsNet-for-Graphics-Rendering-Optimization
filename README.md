@@ -1,6 +1,6 @@
 # CapsNet-for-Graphics-Rendering-Optimization
 
-I'm putting this out now looking for collaborators, since my skill with Tensorflow and Keras is very limited and this will take me eons otherwise. I would like to use Vulkan and JuliaGPU for this.
+I'm putting this out now looking for collaborators, since my skill with Tensorflow and Keras is very limited and this will take me eons otherwise. I am building in Vulkan and JuliaGPU
 
 Basically, [Capsule Networks](https://hackernoon.com/what-is-a-capsnet-or-capsule-network-2bfbe48769cc) are neural networks that are better generalized for encoding matrix operations, whereas the traditional kind work in scalars. 
 
