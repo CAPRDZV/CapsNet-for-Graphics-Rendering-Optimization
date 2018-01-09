@@ -19,7 +19,7 @@ Reach me to with suggestions or to help at: brewster.joshua1@gmail.com
 I'm a computer science and psychology student. I've been studying this for a few years now, it's only in 2017 that some of the tools are becoming available to make something like this idea possible. Now I just need a Titan V to get decent framerate... [X_x]( https://i.pinimg.com/736x/f2/fe/7a/f2fe7abeae7cafb5c622b447c4fa294a--high-meme.jpg)
 
 Rough plans
-- Make a basic Julia + Vulkan demo.
+- Make a basic Julia + Vulkan demo. Test performance.
 - Reproduce several of the studies highlighted here in Julia (with cuDNN) based on other examples: the neural-net generated [ray-tracing](https://blogs.nvidia.com/blog/2017/05/10/ai-for-ray-tracing/) (or a more performance-friendly model like PBR or VXGI) and [Eulerian](https://cims.nyu.edu/~schlacht/CNNFluids.htm) (how about [Schrodinger?](https://www.youtube.com/watch?v=5C9BLAXCe1I)) smoke simulations, and [style transfer](https://github.com/moothyknight/UniversalStyleTransfer) algorithm. 
 - The style transfer work will be a good place to try to re-create the [MERA]((https://arxiv.org/pdf/1711.03357.pdf)) optimization as it uses the VGG19 net with fully connected layers in the original decoder.
 - Create CapsNet encoders for these problems and compare performance.
