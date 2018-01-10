@@ -24,3 +24,4 @@ Rough plans
 - The style transfer work will be a good place to try to re-create the [MERA]((https://arxiv.org/pdf/1711.03357.pdf)) optimization as it uses the VGG19 net with fully connected layers.
 - Create CapsNet encoders for these problems and compare performance. Examples: https://github.com/loretoparisi/CapsNet
 - Use the understanding gained there to combine the studies and integrate with Vulkan. The cuDNN neural net will be integrated with the compute shader via SPIRV using Julia's tools, unless there is a simpler way that doesn't introduce overhead. I have a working fully-featured engine for windows and linux [here](https://github.com/moothyknight/Vulkan-Compute-Example) featuring an N-body simulation. I put it together from many examples.
+- Photogrammetry?
