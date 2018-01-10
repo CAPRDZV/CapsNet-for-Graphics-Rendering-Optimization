@@ -1,6 +1,6 @@
 # CapsNet-for-Graphics-Rendering-Optimization
 
-I'm putting this out now looking for collaborators, since my skill with machine learning code is very limited and this will take me eons otherwise. I am building in [Vulkan](https://github.com/moothyknight/Vulkan-Compute-Example) and [JuliaGPU](https://github.com/JuliaGPU) to get the maximal possible performance and interoperability (via SPIRV).
+I'm putting this out now looking for collaborators, since my skill with machine learning code is very limited and this will take me eons otherwise as I am in the process of learning. I am building in [Vulkan](https://github.com/moothyknight/Vulkan-Compute-Example) and [JuliaGPU](https://github.com/JuliaGPU) to get the maximal possible performance and interoperability (via SPIRV).
 
 Basically, [Capsule Networks](https://medium.com/ai%C2%B3-theory-practice-business/understanding-hintons-capsule-networks-part-i-intuition-b4b559d1159b) are neural networks that are better generalized for encoding matrix operations, whereas the traditional kind work in scalars. 
 
