@@ -5,7 +5,7 @@ What I'm actually doing:
 - Training neural networks on graphical simulations, primarily fluid and lighting physics (since I have lots of references). Using Tensorflow (and Python in general) and Julia (when Linux wants to work properly for me).
 - Replacing traditional "linearly iterative" compute models with those models to run through GLSL code.
 - Testing different encoder and decoder models for quality, speed, and usability.
-- Integrating that with Vulkan in C++. I have a working engine for Windows and Linux (mostly borrowed) with SPIR-V number generators for cross-platform. The trained models can probably be loaded like any other file then the weight matrices are used for computation.
+- Integrating that with Vulkan in C++. I have a [working](https://github.com/moothyknight/Vulkan-Compute-Example) engine for Windows and Linux (mostly borrowed) with SPIR-V number generators for cross-platform. The trained models can probably be loaded like any other file then the weight matrices are used for computation.
 - End up with an intuitive process for others to use and learn from. This field's advancing fast, and the available tools need to keep evolving so it's not so specialized. This math is too powerful!
 
 Long form:
