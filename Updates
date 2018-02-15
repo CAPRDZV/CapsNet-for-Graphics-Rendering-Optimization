@@ -1,3 +1,6 @@
+- 2/15: OpenCV has the right base I need, so I'm integrating it with my API. Tons of my work is simplifying.  
+Also have a few errors in the Vulkan engine to straighten out to get the GUI working, totally at a loss there right now.
+
 - 2/11: Fuck it I'm writing my own neural net API
 
 - 1/30 update: Got my computer running again, now I can start coding. I haven't found any major changes I need to make in my plans yet, 
