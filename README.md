@@ -2,7 +2,7 @@
 
 What I'm actually doing:
 
-- Training neural networks on graphical simulations, primarily fluid and lighting physics (since I have lots of references). Writing my own simple C++ API now since my alternatives aren't working. This will be far easier to think with and integrate with Vulkan. Using Tensorflow (and Python in general) and Julia for reference.
+- Training neural networks on graphical simulations, primarily fluid and lighting physics (since I have lots of references). Writing my own simple C++ API now with OpenCV since my alternatives aren't working. This will be far easier to think with and integrate with Vulkan. Using Tensorflow (and Python in general) and Julia for reference.
 - Replacing traditional "linearly iterative" compute models with those trained models to run through GLSL code. The trained models can probably be loaded like any other file, then the weight matrices used for computation.
 - Testing different encoder and decoder models for quality, speed, and usability.
 - Integrating that with Vulkan in C++. I have a [working](https://github.com/moothyknight/Vulkan-Compute-Example) engine for Windows and Linux (mostly borrowed) with SPIR-V number generators for cross-platform. The engine originally supported Android and I think Mac, so if I prove this works I will restore that functionality.
@@ -30,8 +30,8 @@ I'm a computer science and psychology student. I've been studying this for a few
 
 Rough plans
 
-- Reproduce several of the studies highlighted here, first in regular Python, then in Julia (with cuDNN) based on other examples: the neural-net generated [ray-tracing](https://blogs.nvidia.com/blog/2017/05/10/ai-for-ray-tracing/) (or a more performance-friendly model like PBR or VXGI) and [Eulerian](https://cims.nyu.edu/~schlacht/CNNFluids.htm) (how about [Schrodinger?](https://www.youtube.com/watch?v=5C9BLAXCe1I)) smoke simulations, and [style transfer](https://github.com/moothyknight/UniversalStyleTransfer) algorithm. 
+- Reproduce several of the studies highlighted here in C++ based on other examples: the neural-net generated [ray-tracing](https://blogs.nvidia.com/blog/2017/05/10/ai-for-ray-tracing/) (or a more performance-friendly model like PBR or VXGI) and [Eulerian](https://cims.nyu.edu/~schlacht/CNNFluids.htm) (how about [Schrodinger?](https://www.youtube.com/watch?v=5C9BLAXCe1I)) smoke simulations, and [style transfer](https://github.com/moothyknight/UniversalStyleTransfer) algorithm. 
 - The style transfer work will be a good place to try to re-create the [MERA]((https://arxiv.org/pdf/1711.03357.pdf)) optimization as it uses the VGG19 net with fully connected layers. It's a perfect example of using correlation matrices with neural networks, thus my use of it here.
 - Create CapsNet encoders for these problems and compare performance. Examples: https://github.com/loretoparisi/CapsNet
 - Use the understanding gained there to combine the studies and integrate with Vulkan. The cuDNN neural net will be integrated with the compute shader via SPIRV using Julia's tools, unless there is a simpler way that doesn't introduce overhead. I have a working fully-featured engine for windows and linux [here](https://github.com/moothyknight/Vulkan-Compute-Example) featuring an N-body simulation. I put it together from many examples.
-- Photogrammetry?
+- Photogrammetry? Terrain generation?
