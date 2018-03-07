@@ -10,7 +10,7 @@ What I'm actually doing:
 
 Long form:
 
-I'm putting this out now looking for collaborators, since my skill with machine learning code is very limited and this will take me eons otherwise as I am in the process of learning. I am building in [Vulkan](https://github.com/moothyknight/Vulkan-Compute-Example) and first regular Tensorflow, then [JuliaGPU](https://github.com/JuliaGPU).
+I'm putting this out now looking for collaborators, since my skill with machine learning code is very limited and this will take me eons otherwise as I am in the process of learning. I am building in [Vulkan](https://github.com/moothyknight/Vulkan-Compute-Example) and OpenCV, then maybe [JuliaGPU](https://github.com/JuliaGPU).
 
 Basically, [Capsule Networks](https://medium.com/ai%C2%B3-theory-practice-business/understanding-hintons-capsule-networks-part-i-intuition-b4b559d1159b) are neural networks that are better generalized for encoding matrix operations, whereas the traditional kind work in scalars. 
 
@@ -33,5 +33,5 @@ Rough plans
 - Reproduce several of the studies highlighted here in C++ based on other examples: the neural-net generated [ray-tracing](https://blogs.nvidia.com/blog/2017/05/10/ai-for-ray-tracing/) (or a more performance-friendly model like PBR or VXGI) and [Eulerian](https://cims.nyu.edu/~schlacht/CNNFluids.htm) (how about [Schrodinger?](https://www.youtube.com/watch?v=5C9BLAXCe1I)) smoke simulations, and [style transfer](https://github.com/moothyknight/UniversalStyleTransfer) algorithm. 
 - The style transfer work will be a good place to try to re-create the [MERA]((https://arxiv.org/pdf/1711.03357.pdf)) optimization as it uses the VGG19 net with fully connected layers. It's a perfect example of using correlation matrices with neural networks, thus my use of it here.
 - Create CapsNet encoders for these problems and compare performance. Examples: https://github.com/loretoparisi/CapsNet
-- Use the understanding gained there to combine the studies and integrate with Vulkan. The cuDNN neural net will be integrated with the compute shader via SPIRV using Julia's tools, unless there is a simpler way that doesn't introduce overhead. I have a working fully-featured engine for windows and linux [here](https://github.com/moothyknight/Vulkan-Compute-Example) featuring an N-body simulation. I put it together from many examples.
+- Use the understanding gained there to combine the studies and integrate with Vulkan. The cuDNN neural net will be integrated with the compute shader via SPIRV using my engine's SPIR-V number generator, unless there is a simpler way that doesn't introduce overhead. I have a working fully-featured engine for windows and linux [here](https://github.com/moothyknight/Vulkan-Compute-Example) featuring an N-body simulation. I put it together from many examples.
 - Photogrammetry? Terrain generation?
